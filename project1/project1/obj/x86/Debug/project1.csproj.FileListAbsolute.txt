@@ -1,0 +1,6 @@
+/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/project1/project1/bin/Debug/project1.exe
+/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/project1/project1/bin/Debug/project1.pdb
+/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/project1/project1/obj/x86/Debug/project1.csprojAssemblyReference.cache
+/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/project1/project1/obj/x86/Debug/project1.csproj.CoreCompileInputs.cache
+/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/project1/project1/obj/x86/Debug/project1.exe
+/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/project1/project1/obj/x86/Debug/project1.pdb

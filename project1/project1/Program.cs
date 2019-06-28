@@ -6,23 +6,23 @@ namespace project1
     {
         public static void Main(string[] args)
         {
-            //hello();
+            hello();
 
-            //addition();
+            addition();
 
-            //catDog();
+            catDog();
 
-            //oddEven();
+            oddEven();
 
-            //inches();
+            inches();
 
-            //echo();
+            echo();
 
-            //killgrams();
+            killgrams();
 
             age();
 
-            //guess();
+            guess();
 
         }
         public static void hello()
@@ -103,12 +103,22 @@ namespace project1
         {
             Console.WriteLine("What year were you born?");
             int byear = Convert.ToInt32( Console.ReadLine());
-            int age = DateTime.Today.Year - byear;
-            Console.WriteLine("You are " + age + " years old.");
+            int ag = DateTime.Today.Year - byear;
+            Console.WriteLine("You are " + ag + " years old.");
         }
         public static void guess()
         {
+            Console.WriteLine("Guess the word!");
+            string word = Console.ReadLine();
 
+            if (word == "csharp")
+            {
+                Console.WriteLine("!!!CORRECT!!!");
+            }
+            else
+            {
+                Console.WriteLine("!!!WRONG!!!");
+            }
         }
 
 

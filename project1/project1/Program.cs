@@ -6,15 +6,23 @@ namespace project1
     {
         public static void Main(string[] args)
         {
-            hello();
+            //hello();
 
-            addition();
+            //addition();
 
-            catDog();
+            //catDog();
 
-            oddEven();
+            //oddEven();
 
-            inches();
+            //inches();
+
+            //echo();
+
+            //killgrams();
+
+            age();
+
+            //guess();
 
         }
         public static void hello()
@@ -70,8 +78,36 @@ namespace project1
 
             int feet = Convert.ToInt32(height);
             Console.WriteLine(feet * 12);
-
-
+        }
+        public static void echo ()
+        {
+            Console.WriteLine("I am Echo, give me a word.");
+            string word = Console.ReadLine();
+            Console.WriteLine(word.ToUpper());
+            Console.WriteLine(word.ToLower());
+            Console.WriteLine(word.ToLower());
+        }
+        public static void killgrams()
+        {
+            Console.WriteLine("How many pounds would you like to convert to kilograms?");
+            int lbs = Convert.ToInt16(Console.ReadLine());
+            double kg = (0.45359237 * (double)lbs);
+            Console.WriteLine("Converted to " + kg + "kg");
+        }
+        public static void date()
+        {
+            Console.WriteLine("Current date and time is:");
+            Console.WriteLine(DateTime.Today);
+        }
+        public static void age()
+        {
+            Console.WriteLine("What year were you born?");
+            int byear = Convert.ToInt32( Console.ReadLine());
+            int age = DateTime.Today.Year - byear;
+            Console.WriteLine("You are " + age + " years old.");
+        }
+        public static void guess()
+        {
 
         }
 
@@ -79,6 +115,8 @@ namespace project1
 
 
 
+
+
     }
-        
+
 }

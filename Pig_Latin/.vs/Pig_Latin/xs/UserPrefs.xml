@@ -1,11 +1,13 @@
-﻿<Properties StartupConfiguration="{E8588790-79DC-4EB6-9698-E1F3F1735FA2}|Default">
-  <MonoDevelop.Ide.ItemProperties.project1 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{D09714A3-E927-466D-896B-5F39A12660B3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pig_Latin/Program.cs">
+    <Files>
+      <File FileName="Pig_Latin/Program.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="project1" expanded="True">
-            <Node name="project1" expanded="True">
+          <Node name="Pig_Latin" expanded="True">
+            <Node name="Pig_Latin" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -18,6 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.ItemProperties.Pig__Latin FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

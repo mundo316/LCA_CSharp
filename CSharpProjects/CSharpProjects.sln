@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowersofHanoi", "CSharpProjects\TowersofHanoi.csproj", "{4A4A437D-93E1-4314-9584-D614E34492DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pig_Latin", "..\Pig_Latin\Pig_Latin\Pig_Latin.csproj", "{D09714A3-E927-466D-896B-5F39A12660B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pig_Latin", "CSharpProjects\Pig_Latin\Pig_Latin.csproj", "{D09714A3-E927-466D-896B-5F39A12660B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POCO", "..\POCO\POCO\POCO.csproj", "{8D2EE25A-E72F-409D-B3DC-00FFD741AF69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POCO", "CSharpProjects\POCO\POCO.csproj", "{8D2EE25A-E72F-409D-B3DC-00FFD741AF69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "project1", "..\project1\project1\project1.csproj", "{E8588790-79DC-4EB6-9698-E1F3F1735FA2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "project1", "CSharpProjects\project1\project1.csproj", "{E8588790-79DC-4EB6-9698-E1F3F1735FA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors", "..\RockPaperScissors\RockPaperScissors\RockPaperScissors.csproj", "{103657B1-D9AA-4F42-AA49-EE1E57C9CE70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors", "CSharpProjects\RockPaperScissors\RockPaperScissors.csproj", "{103657B1-D9AA-4F42-AA49-EE1E57C9CE70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

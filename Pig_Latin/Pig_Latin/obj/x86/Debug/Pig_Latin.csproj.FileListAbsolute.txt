@@ -1,6 +1,0 @@
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/Pig_Latin/Pig_Latin/bin/Debug/Pig_Latin.exe
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/Pig_Latin/Pig_Latin/bin/Debug/Pig_Latin.pdb
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/Pig_Latin/Pig_Latin/obj/x86/Debug/Pig_Latin.csprojAssemblyReference.cache
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/Pig_Latin/Pig_Latin/obj/x86/Debug/Pig_Latin.csproj.CoreCompileInputs.cache
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/Pig_Latin/Pig_Latin/obj/x86/Debug/Pig_Latin.exe
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/Pig_Latin/Pig_Latin/obj/x86/Debug/Pig_Latin.pdb

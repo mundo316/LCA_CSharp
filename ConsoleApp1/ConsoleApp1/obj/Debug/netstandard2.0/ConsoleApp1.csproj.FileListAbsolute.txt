@@ -1,9 +1,0 @@
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/ConsoleApp1/ConsoleApp1/obj/Debug/netstandard2.0/ConsoleApp1.csprojAssemblyReference.cache
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/ConsoleApp1/ConsoleApp1/obj/Debug/netstandard2.0/ConsoleApp1.csproj.CoreCompileInputs.cache
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/ConsoleApp1/ConsoleApp1/obj/Debug/netstandard2.0/ConsoleApp1.AssemblyInfoInputs.cache
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/ConsoleApp1/ConsoleApp1/obj/Debug/netstandard2.0/ConsoleApp1.AssemblyInfo.cs
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/ConsoleApp1/ConsoleApp1/obj/Debug/netstandard2.0/ConsoleApp1.dll
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/ConsoleApp1/ConsoleApp1/obj/Debug/netstandard2.0/ConsoleApp1.pdb
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/ConsoleApp1/ConsoleApp1/bin/Debug/netstandard2.0/ConsoleApp1.deps.json
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/ConsoleApp1/ConsoleApp1/bin/Debug/netstandard2.0/ConsoleApp1.dll
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/ConsoleApp1/ConsoleApp1/bin/Debug/netstandard2.0/ConsoleApp1.pdb

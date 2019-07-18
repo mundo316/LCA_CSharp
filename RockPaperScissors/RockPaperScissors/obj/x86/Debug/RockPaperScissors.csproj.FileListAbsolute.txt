@@ -1,6 +1,0 @@
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/RockPaperScissors/RockPaperScissors/bin/Debug/RockPaperScissors.exe
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/RockPaperScissors/RockPaperScissors/bin/Debug/RockPaperScissors.pdb
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/RockPaperScissors/RockPaperScissors/obj/x86/Debug/RockPaperScissors.csprojAssemblyReference.cache
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/RockPaperScissors/RockPaperScissors/obj/x86/Debug/RockPaperScissors.csproj.CoreCompileInputs.cache
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/RockPaperScissors/RockPaperScissors/obj/x86/Debug/RockPaperScissors.exe
-/Users/raygarcia/Documents/DevFolder/LCA_C#_raymundo_garcia/RockPaperScissors/RockPaperScissors/obj/x86/Debug/RockPaperScissors.pdb

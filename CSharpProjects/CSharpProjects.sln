@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mastermind", "Mastermind\Ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo", "ToDo\ToDo.csproj", "{6B6AB7EA-FA7A-427A-809C-C696B5BDBF84}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonSuperheroVillain", "PersonSuperheroVillain\PersonSuperheroVillain.csproj", "{44C58BA5-78CC-4346-8173-FBB79874EFB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -55,5 +57,9 @@ Global
 		{6B6AB7EA-FA7A-427A-809C-C696B5BDBF84}.Debug|x86.Build.0 = Debug|x86
 		{6B6AB7EA-FA7A-427A-809C-C696B5BDBF84}.Release|x86.ActiveCfg = Release|x86
 		{6B6AB7EA-FA7A-427A-809C-C696B5BDBF84}.Release|x86.Build.0 = Release|x86
+		{44C58BA5-78CC-4346-8173-FBB79874EFB4}.Debug|x86.ActiveCfg = Debug|x86
+		{44C58BA5-78CC-4346-8173-FBB79874EFB4}.Debug|x86.Build.0 = Debug|x86
+		{44C58BA5-78CC-4346-8173-FBB79874EFB4}.Release|x86.ActiveCfg = Release|x86
+		{44C58BA5-78CC-4346-8173-FBB79874EFB4}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal

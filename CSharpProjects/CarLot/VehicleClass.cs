@@ -3,6 +3,7 @@ namespace CarLot
 {
     public abstract class Vehicle
     {
+        //basic vehicle info
         public string LiceNum;
         public string Manufacturer;
         public string Model;
@@ -10,6 +11,7 @@ namespace CarLot
 
         public Vehicle(string LicenseNumber, string make, string model, double price)
         {
+            //info constructor
             LiceNum = LicenseNumber;
             Manufacturer = make;
             Model = model;
@@ -18,6 +20,7 @@ namespace CarLot
 
         public virtual void VehicleDescription()
         {
+            //prints basic vehicle info
             Console.WriteLine(LiceNum);
             Console.WriteLine(Manufacturer);
             Console.WriteLine(Model);

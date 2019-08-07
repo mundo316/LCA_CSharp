@@ -21,6 +21,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonSuperheroVillain", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLot", "CarLot\CarLot.csproj", "{202A658A-8CAF-417D-BBAA-433C5FD41BB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iRentable", "iRentable\iRentable.csproj", "{3477306E-FEC1-43E2-AC6D-97A063535E3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkers", "Checkers\Checkers.csproj", "{AD0241D4-2076-457D-8D82-588F3C744008}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BooksSQL", "BooksSQL", "{AAE4C546-4A19-4713-A50B-0A6D8764A7B8}"
+	ProjectSection(SolutionItems) = preProject
+		BooksSQL.txt = BooksSQL.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -67,5 +76,13 @@ Global
 		{202A658A-8CAF-417D-BBAA-433C5FD41BB7}.Debug|x86.Build.0 = Debug|x86
 		{202A658A-8CAF-417D-BBAA-433C5FD41BB7}.Release|x86.ActiveCfg = Release|x86
 		{202A658A-8CAF-417D-BBAA-433C5FD41BB7}.Release|x86.Build.0 = Release|x86
+		{3477306E-FEC1-43E2-AC6D-97A063535E3C}.Debug|x86.ActiveCfg = Debug|x86
+		{3477306E-FEC1-43E2-AC6D-97A063535E3C}.Debug|x86.Build.0 = Debug|x86
+		{3477306E-FEC1-43E2-AC6D-97A063535E3C}.Release|x86.ActiveCfg = Release|x86
+		{3477306E-FEC1-43E2-AC6D-97A063535E3C}.Release|x86.Build.0 = Release|x86
+		{AD0241D4-2076-457D-8D82-588F3C744008}.Debug|x86.ActiveCfg = Debug|x86
+		{AD0241D4-2076-457D-8D82-588F3C744008}.Debug|x86.Build.0 = Debug|x86
+		{AD0241D4-2076-457D-8D82-588F3C744008}.Release|x86.ActiveCfg = Release|x86
+		{AD0241D4-2076-457D-8D82-588F3C744008}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal

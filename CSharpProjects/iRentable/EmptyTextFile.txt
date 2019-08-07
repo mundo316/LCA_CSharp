@@ -1,0 +1,115 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace iRentable
+{
+    class MainClass
+    {
+        public static void Main(string[] args)
+        {
+            //creating the space for rentals
+            iRentables available = new iRentables("airBnCnH");
+
+            //creating cars boats and houses to add to list
+
+            //using method to add rentables to list
+
+            //calling print rentables
+
+
+        }
+
+        public static void GetDailyRate()
+        {
+            //print rate for rentable
+        }
+        
+        public static void GetDescription()
+        {
+            //print description for each listed item
+        }
+
+        public  void PrintLot()
+        {
+            //cw(methods)
+        }
+
+        public void AddRentable()
+        {
+            Rentables.Add(listed);
+        }
+    }
+
+    public class iRentables
+    {
+        List<iRentables> listed = new List<iRentables>();
+
+        string rates;
+        string description;
+
+
+        public iRentables(string Rates, string Description)
+        {
+            Rates = 
+            Description = description;
+        }
+    }
+
+    public class Car : iRentables
+    {
+        string dailyrate;
+        string weeklyrate;
+        string monthlyrate;
+        string make;
+        string model;
+        string year;
+        string classofcar;
+        string numofseats;
+
+        public Car(string DailyRate, string WeeklyRate, string MonthlyRate, string Make, string Model, string Year, string ClassofCar, string NumberOfSeats  )
+        {
+            DailyRate = dailyrate;
+            WeeklyRate = weeklyrate;
+            MonthlyRate = monthlyrate;
+            Make = make;
+            Model = model;
+            Year = year;
+            ClassofCar = classofcar;
+            NumberOfSeats = numofseats;
+
+        }
+    }
+    public class Boat : iRentables
+    {
+        string hourlyrate;
+        string dailyrate;
+        string weeklyrate;
+        string make;
+        string model;
+        string year;
+        string classofboat;
+        string numofseats;
+
+        public Boat(string HourlyRate, string DailyRate, string WeeklyRate, string Make, string Model, string Year, string ClassOfBoat, string NumberOfSeats)
+        {
+            HourlyRate = hourlyrate;
+           // DailyRate = dailyrate;
+           // WeeklyRate = weeklyrate;
+            Make = make;
+            Model = model;
+            Year = year;
+            ClassOfBoat = classofboat;
+            NumberOfSeats = numofseats;
+        }
+    }
+    public class House : iRentables
+    {
+        string nightlyrate;
+        string weeklyrate;
+        string monthlyrate;
+        string numofbedrooms;
+        string numofbathrooms;
+
+    }
+
+}

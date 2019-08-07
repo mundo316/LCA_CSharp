@@ -28,6 +28,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BooksSQL", "BooksSQL", "{AAE4C546-4A19-4713-A50B-0A6D8764A7B8}"
 	ProjectSection(SolutionItems) = preProject
 		BooksSQL.ReadMe = BooksSQL.ReadMe
+		Books.txt = Books.txt
 	EndProjectSection
 EndProject
 Global

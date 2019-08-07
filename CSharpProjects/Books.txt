@@ -1,0 +1,28 @@
+﻿CREATE TABLE BOOKS (
+    id int,
+    title varchar(20),
+    author varchar(20)
+);
+INSERT INTO BOOKS (id, title, author) VALUES
+(1, 'The Hobbit', 'Tolkien');
+
+INSERT INTO BOOKS (id, title, author) VALUES
+(2, 'The Cat in the Hat', 'Dr. Seuss');
+
+INSERT INTO BOOKS (id, title, author) VALUES
+(3, 'Tom Sawyer', 'Mark Twain');   
+
+INSERT INTO BOOKS (id, title, author) VALUES
+(4, 'Fight Club', 'Chuck Palahniuk');    
+
+SELECT * FROM BOOKS;
+
+SELECT * FROM BOOKS WHERE id = 2;
+
+SELECT * FROM BOOKS WHERE title;
+
+UPDATE BOOKS SET author = "J.R.R. Tolkein" where id = 2;
+
+DELETE FROM BOOKS WHERE id = 4;
+
+

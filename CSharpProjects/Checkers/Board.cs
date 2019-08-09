@@ -27,8 +27,8 @@ namespace Checkers
         public Checker GetChecker(Position pos)
         {
             foreach (Checker c in checkers)
-            {//fill in blanks
-                if (c.Position.Row == (_______) && c.Position.Column == (______))
+            {
+                if (c.Position.Row == () && c.Position.Column == ())
                 {
                     return c;
                 }

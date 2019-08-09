@@ -31,6 +31,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BooksSQL", "BooksSQL", "{AA
 		Books.txt = Books.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookInventory", "BookInventory\BookInventory.csproj", "{ECBFDD5C-1654-4F9D-8E1C-C22E203DFDB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -85,5 +87,9 @@ Global
 		{AD0241D4-2076-457D-8D82-588F3C744008}.Debug|x86.Build.0 = Debug|x86
 		{AD0241D4-2076-457D-8D82-588F3C744008}.Release|x86.ActiveCfg = Release|x86
 		{AD0241D4-2076-457D-8D82-588F3C744008}.Release|x86.Build.0 = Release|x86
+		{ECBFDD5C-1654-4F9D-8E1C-C22E203DFDB4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ECBFDD5C-1654-4F9D-8E1C-C22E203DFDB4}.Debug|x86.Build.0 = Debug|Any CPU
+		{ECBFDD5C-1654-4F9D-8E1C-C22E203DFDB4}.Release|x86.ActiveCfg = Release|Any CPU
+		{ECBFDD5C-1654-4F9D-8E1C-C22E203DFDB4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

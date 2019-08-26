@@ -1,105 +1,123 @@
 ﻿using System;
 using System.Collections.Generic;
+
 namespace ToDoItemCP
 {
-    
-
-    public static class App
+    public class App
     {
-        static string answer;
 
-        static ItemRepo Repo = new ItemRepo();
+        //string answer;
 
-        public static void add(ToDoItem description)
+        ItemRepo Repo = new ItemRepo();
+
+        public void add()
         {
-            ToDoItem item = ConsoleUtils.AskUser();
-            Repo.Add(new ToDoItem (Description));
+            var item = ConsoleUtils.AskUser();
+            Repo.Add(new ToDoItem(item));
         }
 
-        public static void delete(int Id)
+        public void delete(int Id)
         {
             Repo.Delete(Id);
         }
 
-        public static void markasdone(int Id)
+        public void markasdone(int Id)
         {
             Repo.MarkAsDone(Id);
         }
 
-        public static void gatalldone()
+        public void gatalldone()
         {
             Repo.GetAllDone();
         }
 
-        public static void getallpending()
+        public void getallpending()
         {
             Repo.GetAllPending();
         }
 
-        public static void getall()
+        public void getall()
         {
             Repo.GetAll();
         }
 
-        
 
-        public void Run()
+
+        public bool StartApp()
         {
             while (true)
             {
-                ConsoleUtils.AskUser.ToUpper();
-                if (answer == "ADD")
+                string answer = ConsoleUtils.AskUser().ToUpper();
+                switch (answer)
                 {
-                    ConsoleUtils.Add();
-                    add();
-                    return true;
+                    case "ADD":
+                        string newToDoItem = ConsoleUtils.Add();
+                        Repo.Add(new ToDoItem(newToDoItem));
+                        break;
+                    case "DELETE":
+                        var deleteItem = ConsoleUtils.Delete();
+                        Repo.Delete(Convert.ToInt32(deleteItem));
+                        break;
+                    case "VIEW":
+                        var answer2 = ConsoleUtils.View().ToUpper();
+
+                        if (answer2 == "PENDING")
+                        {
+                            var pending = Repo.GetAllPending();
+                            ConsoleUtils.PrintTable(pending);
+                        }
+                        else if (answer2 == "DONE")
+                        {
+                            var done = Repo.GetAllDone();
+                            ConsoleUtils.PrintTable(done);
+
+                        }
+                        else if (answer2 == "ALL")
+                        {
+                            var all = Repo.GetAll();
+                            ConsoleUtils.PrintTable(all);
+                        }
+                        break;
+
+                    default:
+                        break;
                 }
 
-                else if (answer == "DELETE")
+                //if (answer == "ADD")
+                //{
+                    
+                //    //add(newToDoItem);
+                //    //return true;
+                //}
+
+                //else if (answer == "DELETE")
+                //{
+                    
+                //    //return true;
+                //}
+
+                //else if (answer == "VIEW")
+                //{
+                    
+                //}
+
+                else if (answer == "DONE")
                 {
-                    ConsoleUtils.Delete();
-                    delete();
-                    return true;
+                    return false;
                 }
 
-                else if (answer == "VIEW")
+                else
                 {
-                    ConsoleUtils.View();
-                    if (answer == "PENDING")
-                    {
-                        App.getallpending();
-                        Console.WriteLine("1");
-                    }
-                    else if (answer == "DONE")
-                    {
-                        App.gatalldone();
-                        Console.WriteLine("2");
-
-                    }
-                     else if (answer == "ALL")
-                    {
-                        App.getall();
-                        Console.WriteLine("3");
-                    }
-
                     Console.WriteLine("Press Return to Return to the Main Menu.");
-                    Return == Console.ReadKey();
+                    Console.ReadKey();
                     return true;
+                }
                 }
             }
-
-
-
-
-
         }
 
-
-
-
     }
-}
-//driver
+    //driver
 //ask for todoitem
 //call methods from comnsole and repo
 //!directly update repo

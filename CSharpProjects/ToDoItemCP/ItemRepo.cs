@@ -6,25 +6,43 @@ namespace ToDoItemCP
 {
     public class ItemRepo
     {
+        //public ItemContext Context;
+        //public ToDoItem Get{int Id};
+        public List<ToDoItem> ToDoList = new List<ToDoItem>();
+
+
         public ItemContext Context;
-        public ToDoItem get(int Id)
+        //connects to context
+        public ItemRepo()
         {
-            return Context.Items.Where(x => x.Id == Id).FirstOrDefault();
+            Context = new ItemContext();
+            Context.Database.EnsureCreated();
         }
 
-        public IEnumerable<ToDoItem> GetAll()
+
+        //public ToDoItem Get(int id)
+        //{
+        //    Context = new ItemContext();
+        //    return Context.Items.Find(id);
+        //    //return Context.Items.ToList();
+        //}  
+
+        public List<ToDoItem> GetAll()
         {
-            return Context.Items;
+            return Context.Items.ToList();
         }
 
-        public IEnumerable<ToDoItem> GetAllDone()
+        public List<ToDoItem> GetAllDone()
         {
-            return Context.Items.Where(item => item.Flag == "Done");
+            return Context.Items.ToList();
         }
 
-        public IEnumerable<ToDoItem> GetAllPending()
+        public List<ToDoItem> GetAllPending()
         {
-            return Context.Items.Where(item => item.Flag == "Pending");
+            return Context.Items.ToList();
+            //ConsoleUtils.PrintTable(ToDoList);
+
+
         }
 
         public void Add(ToDoItem item)
@@ -35,7 +53,7 @@ namespace ToDoItemCP
 
         public void MarkAsDone(int Id)
         {
-            ToDoItem Item = get(Id);
+            ToDoItem Item = Context.Items.Find(Id);
             Item.Flag = "Complete";
             Context.Update(Item);
             Context.SaveChanges();
@@ -43,14 +61,14 @@ namespace ToDoItemCP
 
         public void Delete(int Id)
         {
-            ToDoItem Item = get(Id);
+            ToDoItem Item = Context.Items.Find(Id);
             Context.Remove(Item);
             Context.SaveChanges();
         }
 
-        public ItemRepo()
-        {
-            Context = new ItemContext();
+    
+    }
+}    
             //use linq here/???
             //talks to database-
             //item context instance-
@@ -59,9 +77,4 @@ namespace ToDoItemCP
             //delete()
 
             //!!display or accept info from user
-
-
-
-        }
-    }
-}
+        // change the return type to a List<ToDoItem> and then on your return statement add .ToList()

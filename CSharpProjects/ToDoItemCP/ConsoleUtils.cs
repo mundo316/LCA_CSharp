@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 
 //user enters items
@@ -13,11 +14,11 @@ namespace ToDoItemCP
         public ToDoItem item;
 
         
-        public ConsoleUtils()
-        {
-           //constructor 
-        }
-        string answer;
+        //public ConsoleUtils()
+        //{
+        //   //constructor 
+        //}
+        
 
         public static string AskUser()
         {
@@ -25,7 +26,7 @@ namespace ToDoItemCP
             //do
             //{ //loop asking the user what they want to do
 
-                Console.WriteLine("Would you like to ADD to, DELETE from, or VIEW your To Do List? ");
+                Console.WriteLine("Would you like to ADD to, DELETE from, or VIEW your To Do List? Choose one or enter DONE");
                 string answer = Console.ReadLine();
 
                 return answer;
@@ -40,8 +41,6 @@ namespace ToDoItemCP
             string Description = Console.ReadLine();
             return Description;
         }
-
-        
 
         public static string Delete()
         {
@@ -68,34 +67,35 @@ namespace ToDoItemCP
         public static string View()
         {
             Console.WriteLine("Would you like to view the PENDING items, DONE items or ALL items?");
-            string viewanswer = Console.ReadLine();
-            
-
-            if (viewanswer == "PENDING")
-            {
-                return "pending";
-            }
-
-            else if (viewanswer == "DONE")
-            {
-                return "done";
-            }
-
-            else if (viewanswer == "ALL")
-            {
-                return "all";
-            }
-
-            else
-            {
-                Console.WriteLine("Error! try again.");
-            }
-
-            return null;
-
+            return Console.ReadLine().ToUpper();
+            //switch (viewanswer)
+            //{
+            //    case "PENDING":
+            //        return "PENDING";
+            //    case "DONE":
+            //        return "done";
+            //    case "ALL":
+            //        return "all";
+            //    default:
+            //        Console.WriteLine("Error! try again.");
+            //        return null;       
+            //}
         }
 
-        
+        public static void PrintTable(List<ToDoItem> List)
+        {
+            foreach (var ToDoItem in List)
+            {
+                Console.WriteLine("|--ID--|-----DESCRIPTION------|--FLAG--");
+                Console.WriteLine("-----------------------------------------------------------");
+                Console.WriteLine($"{ToDoItem.Id} | {ToDoItem.Description} | {ToDoItem.Flag}");   
+            }
+        }
+    }
+}
+
+
+
 //    {
 //        Console.WriteLine(App.Getall());
 //    }
@@ -104,8 +104,6 @@ namespace ToDoItemCP
 //        Console.WriteLine("ERROR please try again.");
 //        return answer false;//or something that can tell the loop to go again
 //    }
-    }
-}
 
 
 
